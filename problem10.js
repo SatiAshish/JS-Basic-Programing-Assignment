@@ -31,8 +31,8 @@ Even index array elements sorted in ascending order
 function sortEvenArray(array, n){
     let evenArr=[];
     let oddArr=[];
-    let result =[];
-    for(let i=0; i<=n; i++){
+    let result =[1,2,3,4,5];
+    for(let i=0; i<n; i++){
         if(i%2 == 0){
 evenArr.push(array[i]);
         }else{
